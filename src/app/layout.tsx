@@ -52,7 +52,7 @@ export default function RootLayout({
         dark:[--pattern-fg:var(--color-neutral-100)]/10 bg-neutral-50 dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 transition-colors duration-500 ease-in-out`}
       >
         <Navbar />
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="system">
             <main className="h-screen">
               {children}
             </main>
