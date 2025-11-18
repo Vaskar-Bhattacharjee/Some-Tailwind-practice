@@ -64,7 +64,6 @@ export default function Home() {
         
       </div>
 
-
    </div>
     
   )
@@ -107,7 +106,7 @@ const CardSkeleton = ({children, className}: {children: React.ReactNode, classNa
       className
     )}>
       {children}
-    </p>
+    </p> 
   )
 }
 
