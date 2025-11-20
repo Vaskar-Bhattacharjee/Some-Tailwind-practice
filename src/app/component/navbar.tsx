@@ -14,7 +14,7 @@ function Navbar() {
             <Link
               key={index}
               href={link.href}
-              className="text-neutral-700 text-xs tracking-tight font-medium  dark:text-neutral-200 mx-2 p-1 cursor-pointer"
+              className="text-neutral-700 text-[16px] tracking-tight font-medium  dark:text-neutral-200 mx-2 p-1 cursor-pointer"
             >
               {link.name}
             </Link>
