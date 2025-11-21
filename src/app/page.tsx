@@ -1,15 +1,14 @@
 'use client';
-import TailwindComp from "./component/tailwind";
-
+import SignUp from './component/SignUp';
 export default function Home() {
 
   
 
   return (
-    <div className="h-screen flex items-center max-w-4xl mx-auto   ">
-      <TailwindComp />
+    <div className="h-screen flex items-center max-w-7xl mx-auto   ">
+      <SignUp />
 
-   </div>
+    </div>
     
   )
 }
