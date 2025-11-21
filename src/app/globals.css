@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --bg-neutral-200: #f3f4f6;
 }
 @theme {
   --animate-marquee: marquee 7s linear infinite;
@@ -24,4 +25,5 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --bg-neutral-200: var(--bg-neutral-200);
 }
