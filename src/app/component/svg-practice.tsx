@@ -55,7 +55,7 @@ function SvgPractice() {
            <div className='w-full h-full flex justify-center items-center border border-neutral-200 dark:border-neutral-700'>
                 <div className='flex justify-start items-center -ml-50 relative'>
                     <MiddleSvg className='text-neutral-300 dark:text-neutral-400 '/>
-                    <Mail className='text-neutral-800 dark:text-neutral-400 absolute size-12 right-50 cursor-pointer' />
+                    <Mail className='text-neutral-800 dark:text-neutral-200 absolute size-12 right-50 cursor-pointer' />
                 </div> {/* first div */}
                 <div></div> {/* second div */}
                 <div></div>{/* third div */}
@@ -178,7 +178,7 @@ const Mail = ({className, ...props}
     : {className?: string}
 ) => (
     <motion.svg xmlns="http://www.w3.org/2000/svg" 
-    className={className}
+    className={ `fill-white dark:fill-neutral-900 ${className}`}
     whileHover="hover"
     {...props}
     width="40" height="40" viewBox="0 0 24 24"  stroke="currentColor" strokeWidth="0.8" strokeLinecap="round" strokeLinejoin="round" >
